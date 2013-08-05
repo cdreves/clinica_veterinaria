@@ -16,7 +16,7 @@ import com.mysql.jdbc.log.Log;
 public class DatabaseConnection{
 	   
 	static Logger logger = Logger.getLogger(DatabaseConnection.class);
-	
+
     private static Connection conn; // atributo donde se guarda el objeto de conexi�n.
  
     /**
@@ -24,7 +24,7 @@ public class DatabaseConnection{
      * @return INSTANCE retorna una instancia de la conexi�n a la base de datos
      */
     
-    public static Connection getConnection() 
+    public Connection getConnection() 
     {
         if (conn == null)
          performConnection();
@@ -57,12 +57,12 @@ public class DatabaseConnection{
     
     public static void performConnection() 
     {
-		PropertyConfigurator.configure("log4jToFile.properties");
-		
+        PropertyConfigurator.configure("log4j.properties");
+
         String host = "localhost";//cambiar por tu host de la base de datos
-        String user = "root";//cambiar por tu usuario de la base de datos
-        String pass = "1234";//cambiar por tu contraseña de la base de datos
-        String dtbs = "test";//cambiar por tu nombre de la base de datos
+        String user = "cdreves";//cambiar por tu usuario de la base de datos
+        String pass = "08012009";//cambiar por tu contraseña de la base de datos
+        String dtbs = "clinica_veterinaria";//cambiar por tu nombre de la base de datos
  
         try { // preparamos la conexión
             Class.forName("com.mysql.jdbc.Driver");

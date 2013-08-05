@@ -1,10 +1,20 @@
-
       
   <div id="readme" class="blob instapaper_body">
     <article class="markdown-body entry-content" itemprop="mainContentOfPage"><p>Primero que todo se debe mencionar que la forma de trabajo sobre el proyecto, con respecto al versionamiento y control de archivos es como se muestra en la siguiente página 
 <a target="_blank" href="http://nvie.com/posts/a-successful-git-branching-model/">Workflow de Trabajo En Git</a></p>
 
 <p>En el Blog se irá detallando cada avance del proyecto, para hacerle un seguimiento más a cabo. 
+
+
+
+
+
+
+
+
+
+
+
 <a target="_blank" href="http://ideacompartida.blogspot.com/">Blog Idea Compartida</a></p>
 
 <ul>
@@ -12,7 +22,15 @@
 </ul><p><a target="_blank" href="https://github.com/cdreves/clinica_veterinaria/wiki/Cambios-proyecto-cl%C3%ADnica-veterinar%C3%ADa">Cambios Proyecto Clínica Veterinaría</a></p>
 
 <ul>
-<li>En cuanto al modelo de Datos, en la siguiente página se detalla el modelo de datos utiliza, es bastante simple. Dentro del proyecto existe un archivo de modelo de mysql workbench, al cual pueden aplicarle ingeniería inversa, en el blog se detallará como se hace dicho procedimiento <a href="http://ideacompartida.blogspot.com/">Blog Idea Compartida</a>
+<li>En cuanto 
+
+
+
+
+
+
+
+al modelo de Datos, en la siguiente página se detalla el modelo de datos utiliza, es bastante simple. Dentro del proyecto existe un archivo de modelo de mysql workbench, al cual pueden aplicarle ingeniería inversa, en el blog se detallará como se hace dicho procedimiento <a href="http://ideacompartida.blogspot.com/">Blog Idea Compartida</a>
 </li>
 </ul><p><a target="_blank" href="https://github.com/cdreves/clinica_veterinaria/wiki/Modelo-de-datos">Modelo De Datos</a></p>
 
