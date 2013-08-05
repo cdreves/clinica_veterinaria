@@ -60,8 +60,8 @@ public class DatabaseConnection{
         PropertyConfigurator.configure("log4j.properties");
 
         String host = "localhost";//cambiar por tu host de la base de datos
-        String user = "cdreves";//cambiar por tu usuario de la base de datos
-        String pass = "08012009";//cambiar por tu contraseÃ±a de la base de datos
+        String user = "root";//cambiar por tu usuario de la base de datos
+        String pass = "root";//cambiar por tu contraseña de la base de datos
         String dtbs = "clinica_veterinaria";//cambiar por tu nombre de la base de datos
  
         try { // preparamos la conexiÃ³n
@@ -69,10 +69,10 @@ public class DatabaseConnection{
             String newConnectionURL = "jdbc:mysql://" + host + "/" + dtbs + "?"
                     + "user=" + user + "&password=" + pass;
             conn = DriverManager.getConnection(newConnectionURL);
-            logger.info("Se ha establecido conexiï¿½n con la base de datos.");
+            logger.info("Se ha establecido conexión con la base de datos.");
             
         } catch (Exception e) {
-            logger.error("Error al abrir la conexiï¿½n: "+e);
+            logger.error("Error al abrir la conexión: "+e);
         }
     }
     
